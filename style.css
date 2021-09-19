@@ -1,5 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
 
+/* --- Navigation --- */
+#navbarTop.navbar {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: rgba(0,0,0,0.6)!important;
+}
+#navbarTop .navbar-brand img {
+  height: 2em;
+}
+#navbarTop .nav-item {
+  padding: 0.5em 0.2em;
+}
+#navbarTop.navbar-dark .nav-link {
+  color: white;
+}
+#navbarTop.navbar-dark .nav-link.active,
+#navbarTop.navbar-dark .nav-link:hover {
+  color: #1ebba3;
+}
+
+/* --- Landing page --- */
+.home-inner {
+  background-image: url(img/computers.png);
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+.caption > h1, h2 {
+  text-shadow: 0.02em 0.02em 0.1em black;
+}
+.caption h1 {
+  font-size: 4em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.3em;
+}
+.caption h2 {
+  font-size: 2.2em;
+  margin-bottom: 1.2em;
+}
+.caption .btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  font-size: 1.1em;
+  padding: 0.4em 1.0em;
+}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
